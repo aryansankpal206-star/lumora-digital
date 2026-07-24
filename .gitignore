@@ -1,0 +1,67 @@
+# IDE and Editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Node modules (if using npm)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build and dist folders
+dist/
+build/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS-specific
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Testing
+coverage/
+.nyc_output/
+
+# Compiled files
+*.min.js
+*.min.css
+
+# Local development
+local/
+.local/
+
+# Dependencies
+bower_components/
+
+# Production build
+public/
+.nuxt/
+dist/
+
+# Misc
+.cache/
+*.bak
+*.backup
+*.orig
+
+# System files
+.DS_Store
+ehthumbs.db
+
+# IDE specific
+*.sublime-workspace
+*.sublime-project
+.vscode/settings.json
